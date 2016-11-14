@@ -17,18 +17,11 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager());
         pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(adapter);
-    }
-}
 
-/*public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
         Button button = (Button)findViewById(R.id.button1);
         button.setOnClickListener(new View.OnClickListener() {
@@ -39,5 +32,5 @@ public class MainActivity extends FragmentActivity {
             }
         });
     }
-}*/
+}
 

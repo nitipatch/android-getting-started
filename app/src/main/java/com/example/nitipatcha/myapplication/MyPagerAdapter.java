@@ -4,6 +4,10 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.Fragment;
 
+import com.example.nitipatcha.myapplication.fragment.OneFragment;
+import com.example.nitipatcha.myapplication.fragment.ThreeFragment;
+import com.example.nitipatcha.myapplication.fragment.TwoFragment;
+
 /**
  * Created by nitipat.cha on 11/14/2016.
  */

@@ -1,4 +1,4 @@
-package com.example.nitipatcha.myapplication;
+package com.example.nitipatcha.myapplication.fragment;
 
 /**
  * Created by nitipat.cha on 11/14/2016.
@@ -9,6 +9,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.nitipatcha.myapplication.R;
 
 public class TwoFragment extends Fragment {
 

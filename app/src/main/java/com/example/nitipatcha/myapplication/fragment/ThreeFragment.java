@@ -1,4 +1,4 @@
-package com.example.nitipatcha.myapplication;
+package com.example.nitipatcha.myapplication.fragment;
 
 /**
  * Created by nitipat.cha on 11/14/2016.
@@ -10,10 +10,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class OneFragment extends Fragment {
+import com.example.nitipatcha.myapplication.R;
+
+public class ThreeFragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_one, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_three, container, false);
         return rootView;
     }
 }
