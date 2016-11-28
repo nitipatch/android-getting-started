@@ -23,5 +23,14 @@ public class Third extends Activity {
                 finish();
             }
         });
+
+        Button button5 = (Button)findViewById(R.id.button5);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), Fourth.class);
+                startActivity(i);
+            }
+        });
     }
 }
